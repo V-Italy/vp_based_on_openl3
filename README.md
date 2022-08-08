@@ -5,7 +5,6 @@
 ```Shell
 conda create -n myenv python=3.8
 conda activate myenv
-'''
 
  - The next step is to install the following packages:
 
@@ -13,4 +12,3 @@ conda activate myenv
 pip install openl3
 pip install numpy pandas scikit-learn
 conda install pytorch torchvision torchaudio cudatoolkit=11.3 -c pytorch
-'''
